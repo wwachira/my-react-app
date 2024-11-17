@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Getting Started with Fetch data from GIT api - This project we fetch selective data
+### To fetch all the data, you opt for API RESTFUL with all the data in JSON format.
 ### Author: Liz W. Wachira
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project we fetch selective data. Else you can opt for API RESTFUL with all the data in JSON format. 
 Here are the key takeaways from "Fetching data with Hooks":
 
 Fetching Data: Learn how to fetch data from an external API using the GitHub API as an example.
