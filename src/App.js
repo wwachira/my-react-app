@@ -15,21 +15,13 @@ function App() {
   const [data, setData] = useState(null);
   useEffect(() => {
     fetch(
-      `https://api.github.com/users/wwachira`
+      `https://api.github.com/users/wwachira` //USE your github username!
+      
     )
       .then((response) => response.json())
       .then(setData);
   }, []);
-  // if(data)
-  //   return (
-  //     <GithubUser
-  //       name={data.name}
-  //       location={data.location}
-  //      /> 
-        
 
-  //   );
-    
   if (data)
     return (
       <GithubUser
